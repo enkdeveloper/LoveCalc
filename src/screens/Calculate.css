@@ -1,0 +1,107 @@
+.calculate-container {
+  text-align: center;
+  background-color: #ff69b4;
+  padding: 0px;
+  border-radius: 20px;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculate-button,
+.refresh-button {
+  box-sizing: border-box;
+  width: 8%; /* Adjust the width as needed */
+  margin: 10px;
+}
+
+@media (max-width: 600px) {
+  .button-container {
+    flex-direction: row;
+  }
+  .calculate-button,
+  .refresh-button {
+    width: 45%;
+    margin: 10px;
+  }
+}
+
+.calculate-button {
+  background-color: #ff1493;
+  color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.refresh-button {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.name {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  line-height: normal;
+  max-width: 18ch;
+  padding: 0px;
+  font-size: 18px;
+}
+
+.heart-icon {
+  width: 70px;
+  margin-top: 30px;
+}
+
+.progress-bar-container {
+  position: relative;
+  width: 60%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress-bar {
+  height: 30px;
+  background-color: #ff1493;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+}
+
+
+.result-text {
+  font-size: 32px;
+  color: #fff;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.error-text {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.result-text-large {
+  font-size: 36px;
+  color: white;
+  margin-top: 30px;
+  font-weight: bold;
+}
